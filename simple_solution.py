@@ -37,7 +37,3 @@ plt.plot(xrange, [eqs([0.75, z], n0) for z in xrange])
 plt.plot(xrange, [0. for x in xrange])
 plt.ylim([-5, 5])
 plt.show()
-
-
-
-
